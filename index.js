@@ -3,4 +3,4 @@
 const server = require(__dirname + '/lib/server.js');
 const router = require(__dirname + '/lib/router.js');
 
-server.start(router.route);
+server.score(router.route);
